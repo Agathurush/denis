@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    min-width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    height: 100px;
+    border: 1px solid #ececec;
+    background-color: #fff;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    vertical-align: middle;
+}
+.header-logo{
+    display: flex;
+    background-image: url(img/logo.png);
+    background-repeat: no-repeat;
+    font-size: 27px;
+    text-transform: uppercase;
+    height: 51px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 0.68px;
+    padding-left: 70px;
+    margin-right: 37px;
+    margin-top: 25px;
+   align-items: center;
+}
+.header-logo a{
+    text-decoration: none;
+}
+
+.header-logo:hover{
+    opacity: 0.5;
+}
+span{
+    color: #f16d7f;
+    font-weight: 700;
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+    
+
+.browseButtom{
+    display: flex;
+    width: 87px;
+    height: 39px;
+    border: 1px solid #e6e6e6;
+    color: #222;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.35px;
+    justify-content: center;
+    align-items: center;  
+    
+}
+.browseButtom .fa-caret-down{
+    margin-left: 8px;
+}
+.searchLine{
+    display: flex;
+    width: 317px;
+    border: 1px solid #e6e6e6;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 12px 5px 12px 16px;
+    border-left: none;
+}
+.searchLine input{
+    border: none;
+    outline: none;
+}
+.searchButtom{
+    padding: 10px 6px 10px 6px;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+.cart{
+    width: 32px;
+    height: 30px;
+}
+
+.cart:hover{
+        transform: scale(1.1);
+}
+.accountButtom{
+    display: flex;
+        padding: 11px 20px 11px 20px;
+background-color: #f16d7f;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 26px;
+}
+
+.accountButtom a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.topMenu ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50px;
+}
+.topMenu li{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.topMenu a{
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 23px;
+    color: #222;
+    font-weight: 700;
+    line-height: 26px;    
+}
+
+.topMenu a:hover{
+    text-decoration: underline;
+    text-decoration-color: #f16d7f;
+    color: #ccc;
+}
+
+.topPromo{
+    background-image: url(img/topPromo.jpg);
+    background-color: #e8e8e8;
+    height: 614px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+.topPromoText{
+    border-left: 10px solid #f16d7f;
+    padding-left: 19px;
+    margin-left: 35px
+}
+.topPromoText p1{
+    font-size: 60px;
+    line-height: 42px;
+}
+.topPromoText p2{
+    font-size: 40px;
+    line-height: 30px;
+}
+
